@@ -1,0 +1,28 @@
+@import url(section/navber.css);
+@import url(section/welcome.css);
+@import url(section/products.css);
+@import url(section/offer.css);
+@import url(section/tranding.css);
+@import url(section/footer.css);
+
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* General Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+
+

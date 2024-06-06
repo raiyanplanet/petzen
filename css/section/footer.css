@@ -1,0 +1,121 @@
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    font-size: 14px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-left,
+  .footer-right {
+    flex-basis: 45%;
+  }
+  
+  .footer-menu {
+    margin: 10px 0px;
+  }
+  
+  .page-links h3 {
+    margin: 10px 0px;
+    color: #d2649a;
+  }
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    font-size: 14px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-left,
+  .social-media ul,
+  .newsletter form {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-menu li,
+  .page-links li,
+  .contact-info li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-menu a,
+  .page-links a,
+  .contact-info a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-menu a:hover,
+  .page-links a:hover,
+  .contact-info a:hover {
+    color: #ccc;
+  }
+  .contact-info ul {
+    margin: 20px 0px;
+  }
+  .contact-info li i {
+    margin-right: 10px;
+  }
+  
+  .social-media h3 {
+    margin: 0px 0px;
+  }
+  .social-media li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media a {
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s;
+  }
+  
+  .social-media a:hover {
+    color: #ccc;
+  }
+  
+  .newsletter input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    margin-right: 10px;
+  }
+  
+  .newsletter button {
+    padding: 10px 20px;
+    background-color: #d2649a;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .newsletter button:hover {
+    background-color: #a14a74;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 20px;
+  }

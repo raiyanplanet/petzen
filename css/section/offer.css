@@ -1,0 +1,55 @@
+/* 0ffer sections */
+
+.offer {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+  }
+  
+  .offer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .offer-left {
+    flex: 1;
+    padding-right: 50px;
+  }
+  
+  .offer-left h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .offer-left p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .offer-left .btn {
+    display: inline-block;
+    background-color: #c2598b;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .offer-left .btn:hover {
+    background-color: #a33f6f;
+  }
+  
+  .offer-right {
+    flex: 1;
+  }
+  
+  .offer-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }

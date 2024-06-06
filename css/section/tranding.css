@@ -1,0 +1,68 @@
+/* Trending Products Section Styles */
+.trending {
+    padding: 80px 0;
+    background-color: #fff;
+  }
+  
+  .trending .section-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #000;
+    text-align: center;
+  }
+  
+  .trending .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+  }
+  
+  .trending .product-item {
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .trending .product-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .trending .product-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .trending .product-item .product-info {
+    padding: 20px;
+  }
+  
+  .trending .product-item h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .trending .product-item p {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 15px;
+  }
+  
+  .trending .product-item .btn {
+    display: inline-block;
+    background-color: #d2649a;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .trending .product-item .btn:hover {
+    background-color: #aa4b79;
+  }

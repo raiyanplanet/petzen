@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="/public/favicon.svg">
+  <title>Petzen</title>
+  
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#">
+          <img src="assets/logo.png" alt="Pet Food E-commerce" />
+        </a>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Login/Register</a></li>
+      </ul>
+      <div class="search-container">
+        <div class="search-bar">
+          <input type="text" placeholder="Search pet foods..." />
+          <button type="submit" class="search-btn">
+            <i class="fas fa-search"></i>
+            <span>Search</span>
+          </button>
+        </div>
+      </div>
+      <div class="mobile-menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <section class="welcome">
+    <div class="welcome-bg">
+      <img src="assets/background3.jpg" alt="Pet Food" />
+    </div>
+    <div class="welcome-content">
+      <h1 class="animate__animated">Welcome to Pet Food E-commerce</h1>
+      <p class="animate__animated">
+        Find the best pet foods for your furry friends.
+      </p>
+      <button class="shop-now animate__animated">Shop Now</button>
+    </div>
+  </section>
+
+  <section class="products">
+    <div class="container">
+      <h2>Discover Our Latest Products</h2>
+      <div class="product-grid" id="product-grid" data-aos="fade-up" data-aos-delay="200">
+        <!-- Product items will be dynamically generated here -->
+      </div>
+    </div>
+  </section>
+
+  <section class="offer">
+    <div class="offer-content">
+      <div class="offer-left">
+        <h2 data-aos="fade-right" data-aos-delay="200">
+          50% Off on All Pet Foods
+        </h2>
+        <p data-aos="fade-right" data-aos-delay="300">
+          Don't miss this amazing deal! Lorem ipsum, dolor sit amet
+          consectetur adipisicing elit. Doloremque nemo vero, neque sed
+          sapiente magnam recusandae rerum voluptas dolorum, inventore aut
+          repudiandae quas adipisci! Incidunt enim quod animi quos dolorem!
+        </p>
+        <a href="#" class="btn btn-primary" data-aos="fade-right" data-aos-delay="300">Explore More</a>
+      </div>
+      <div class="offer-right">
+        <img src="assets/cats.jpg" alt="Pet Food" data-aos="fade-left" data-aos-delay="300" />
+      </div>
+    </div>
+  </section>
+
+  <section class="trending">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Trending Products</h2>
+      <div class="product-grid">
+        <div class="product-item" data-aos="fade-up" data-aos-delay="100">
+          <img src="assets/product1.png" alt="Product 1" />
+          <div class="product-info">
+            <h3>Product 1</h3>
+            <p>$49.99</p>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="product-item" data-aos="fade-up" data-aos-delay="200">
+          <img src="assets/product2.jpg" alt="Product 2" />
+          <div class="product-info">
+            <h3>Product 2</h3>
+            <p>$59.99</p>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="product-item" data-aos="fade-up" data-aos-delay="300">
+          <img src="assets/product7.jpg" alt="Product 3" />
+          <div class="product-info">
+            <h3>Product 3</h3>
+            <p>$69.99</p>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+        </div>
+        <div class="product-item" data-aos="fade-up" data-aos-delay="400">
+          <img src="assets/product6.jpg" alt="Product 4" />
+          <div class="product-info">
+            <h3>Product 4</h3>
+            <p>$79.99</p>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-left">
+        <div class="footer-menu">
+          <ul data-aos="fade-up" data-aos-delay="200">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Login/Register</a></li>
+          </ul>
+        </div>
+        <div class="page-links">
+          <h3 data-aos="fade-up" data-aos-delay="200">Quick Links</h3>
+          <ul data-aos="fade-up" data-aos-delay="300">
+            <li><a href="#">Shipping &amp; Returns</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms &amp; Conditions</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="contact-info">
+          <h3 data-aos="fade-up" data-aos-delay="200">Contact Us</h3>
+          <ul data-aos="fade-up" data-aos-delay="300">
+            <li>
+              <i class="fa fa-phone"></i>
+              <a href="tel:+1234567890">+1 (234) 567-890</a>
+            </li>
+            <li>
+              <i class="fa fa-envelope"></i>
+              <a href="mailto:info@petfoodecommerce.com">info@petfoodecommerce.com</a>
+            </li>
+          </ul>
+          <div class="social-media">
+            <h3 data-aos="fade-up" data-aos-delay="200">Follow Us</h3>
+            <ul data-aos="fade-up" data-aos-delay="200">
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="newsletter">
+          <h3 data-aos="fade-up" data-aos-delay="300">
+            Subscribe to our Newsletter
+          </h3>
+          <form data-aos="fade-up" data-aos-delay="400">
+            <input type="email" placeholder="Enter your email" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; 2024 Pet Food E-commerce. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

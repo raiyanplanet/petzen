@@ -1,0 +1,89 @@
+/* Welcome Section Styles */
+.welcome {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+  }
+  
+  .welcome-bg {
+    background-color: #d2649a;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .welcome-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .welcome-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+  }
+  
+  .welcome-content h1,
+  .welcome-content p,
+  .welcome-content .shop-now {
+    margin: 10px 0px;
+    opacity: 0;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  .welcome-content h1 {
+    color: #fff;
+    font-size: 35px;
+    animation-name: fade-in-down;
+  }
+  
+  .welcome-content p {
+    color: #fff;
+    animation-name: fade-in-up;
+    animation-delay: 0.5s;
+  }
+  
+  .welcome-content .shop-now {
+    background-color: #d2649a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    animation-name: fade-in-up;
+    animation-delay: 1s;
+    transition: 0.5s;
+  }
+  .welcome-content .shop-now:hover {
+    background-color: #8e3e63;
+  }
+  
+  @keyframes fade-in-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
